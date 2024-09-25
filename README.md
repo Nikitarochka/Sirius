@@ -41,6 +41,9 @@
 - `requests` — для работы с GigaChat API.
 - `deep_translator`: используется для перевода текста.
 
+### Установите все файлы из репозитория на компьютер
+Обязательно скачайте все файлы, особенно imagenet_classes, так как он нужен нейронной сети для автораспознавания объектов! (загружать в Streamlit)
+
 ### Установка библиотек
 
 pip install opencv-python-headless rembg torch torchvision deep_translator pillow streamlit requests
